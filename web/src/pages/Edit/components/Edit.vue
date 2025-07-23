@@ -244,7 +244,7 @@ export default {
     this.$bus.$on('localStorageExceeded', this.onLocalStorageExceeded)
     window.addEventListener('resize', this.handleResize)
     this.$bus.$on('showDownloadTip', this.showDownloadTip)
-    this.webTip()
+    //this.webTip()
   },
   beforeDestroy() {
     this.$bus.$off('execCommand', this.execCommand)
